@@ -1,0 +1,101 @@
+<!-- Changes made for this lab: 
+1) Original file had a ton of <td align="center">... this style was moved to the external stylesheet  See lines 11, and any line with a <td>
+2) Original file had an inline style for the table that I believe can be counted as meeting the requirement for this lab    See line 36
+3) Internal stylesheet added to make <th> bgcolor grey    see lines 12-14,39-43
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greg Holden - Chase The Sun</title>
+    <link href="albumStyles.css" rel="stylesheet" type="text/css" />
+    <style>
+	th   {background-color:grey;}
+    </style>
+  </head>
+  <body>
+    <center>
+      <img src="https://i.imgur.com/AYlq70Y.png" height="301" width="392">
+      <p>
+        <strong>Chasing the Sun</strong><br>
+        <a href="http://www.gregholdenonline.com">Greg Holden</a><br>
+        2015
+    </center>
+    </p>
+    <hr>
+    <center>
+      <p>
+      <h3>Band Members and Producers</h3>
+      </p>
+    </center>
+    <ul>
+      <li>Greg Holden - Vocals / Guitar</li>
+      <li>Greg Wells - Piano / Guitar</li>
+      <li>Tony Berg - Producer</li>
+    </ul>
+    <table border="1" cellspacing="0" cellpadding="4" width="100%">
+      <caption>Tracks</caption>
+      <br>
+      <tr>
+        <th>Track #</th>
+        <th>Track Title</th>
+        <th>Track Length</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Hold On Tight</td>
+        <td>3:11</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Save Yourself</td>
+        <td>3:21</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Bulletproof</td>
+        <td>4:02</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Boys In the Street</td>
+        <td>4:14</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Give It Away</td>
+        <td>4:03</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Go Chase the Sun</td>
+        <td>3:46</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Free Again</td>
+        <td>3:11</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>A Wonderful World</td>
+        <td>3:25</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>It'll All Come Out</td>
+        <td>3:32</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>I Won't Forget</td>
+        <td>3:23</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>The Next Life</td>
+        <td>3:46</td>
+      </tr>
+    </table>
+  </body>
+</html>

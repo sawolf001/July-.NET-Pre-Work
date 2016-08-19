@@ -1,0 +1,5 @@
+td {
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+}

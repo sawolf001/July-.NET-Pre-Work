@@ -1,0 +1,35 @@
+td {
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+}
+
+ul {font-family: 'Slabo 27px', serif;
+font-style : italic;
+}
+
+strong
+{font-family: 'Slabo 27px', serif;}
+
+.background{
+	background-image: url("https://i.imgur.com/AYlq70Y.png");		
+		background-repeat: no-repeat;
+		height: 600px;
+		
+		background-position: center;
+}
+
+a:hover {
+	 text-decoration: underline;
+	 background-color: yellow;
+	 
+	}
+	a {
+		
+		text-decoration: none;
+	}
+
+	td {font-style: italic;}
+	
+	#tracks {background-color:cornsilk;}
+	

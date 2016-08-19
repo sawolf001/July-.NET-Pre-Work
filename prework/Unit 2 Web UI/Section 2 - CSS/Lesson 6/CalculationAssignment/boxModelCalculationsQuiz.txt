@@ -1,0 +1,15 @@
+
+
+width: 400px;
+height: 150px;
+padding: 10px;
+border: 1px solid red;
+margin: 20px;
+
+Answer:
+
+Total height = 20 + 1 + 10 + 250 + 10 + 1 + 20 = 312px
+Total width = 20 + 1 + 10 + 400 + 10 + 1 + 20 = 462px
+Browser calculated height= 1 + 10 + 150 + 10 + 1 = 172px
+Browser calculated width= 1 + 10 + 400 + 10 + 1 = 422px
+

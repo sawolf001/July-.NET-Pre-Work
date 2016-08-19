@@ -1,0 +1,22 @@
+td {
+    display: table-cell;
+    vertical-align: center;
+    text-align: center;
+}
+
+ul {font-family: 'Slabo 27px', serif;
+font-style : italic;
+}
+
+.title
+{font-family: 'Slabo 27px', serif;
+font-weight:bold;
+font-size:125%;}
+
+.background{
+	background-image: url("https://i.imgur.com/AYlq70Y.png");		
+		background-repeat: no-repeat;
+		height: 600px;
+		
+		background-position: center;
+}

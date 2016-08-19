@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+	<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+    </style>
+</head>
+<body>
+    <div id="header">
+       Scott's French Bistro
+    </div>
+    <hr>
+    <div id="nav">
+        <table>
+            <tr>
+                <td>
+                    <a href="home.html">Home</a>
+                </td>
+                <td>
+                    <a href="menu.html">Menu</a>
+                </td>
+                <td>
+                    <a href="Contactus.html">Contact Us</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <table cellpadding="8">
+        <tr>
+            <td>
+                <form action="contactUs.html" method="post">
+                    <br>
+                    <table cellpadding="6">
+                        <tr>
+                            <td align="right"><span style=
+                            "font-weight:bold">Name:</span></td>
+                            <td><input name="customername" style="width:233px"
+                            type="text"><br></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><span style=
+                            "font-weight:bold">Email:</span></td>
+                            <td><input name="email" style="width:233px" type=
+                            "text"><br></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Phone:</td>
+                            <td><input name="Phone" style="width:233px" type=
+                            "text"><br></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><span style=
+                            "font-weight:bold">Reason for Inquiry:</span></td>
+                            <td><select name="Reason" style="width: 233px">
+                                <option value="Catering">
+                                    Catering
+                                </option>
+                                <option value="Private Pary">
+                                    Private Party
+                                </option>
+                                <option value="Feedback">
+                                    Feedback
+                                </option>
+                                <option value="Other">
+                                    Other
+                                </option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Additional
+                            Information:</td>
+                            <td>
+                            <textarea cols="30" name="briefDescription" rows=
+                            "7"></textarea><br></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><span style=
+                            "font-weight:bold">Have you been to the
+                            restaurant?</span><br></td>
+                            <td><input checked name="answer" type="radio"
+                            value="NO">No <input name="answer" type="radio"
+                            value="YES">Yes<br></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Best days to contact
+                            you:</td>
+                            <td><input name="days" type="checkbox" value="M">M
+                            <input name="days" type="checkbox" value="T">T
+                            <input name="days" type="checkbox" value="W">W
+                            <input name="days" type="checkbox" value="T">Th
+                            <input name="days" type="checkbox" value="F">F</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td align="right"><input style="width: 130px" type=
+                            "submit" value="Send Request"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <div class="footer">
+        <p>1234 Main Street, New Albany, IN, 47150</p>
+        <p>(502)555-5555</p>
+    </div>
+</body>
+</html>

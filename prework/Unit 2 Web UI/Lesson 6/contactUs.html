@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Contact Us Form</title>
+   </head>
+   <body>
+      <table cellpadding="8" cellspacing"2">
+         <tr>
+            <td>
+               <form action="contactUs.html" method="POST">
+         <tr>
+         <td align="right">First Name: </td><td><input type="text" name="myTextInput" style="width:233px"><br></td></tr>
+         <tr>
+         <td align="right">Last Name: </td><td><input type="text" name="myTextInput2" style="width:233px"></td></tr>
+         <tr>
+         <td align="right">Email: </td/><td><input type="text" name="myTextInput3" style="width:233px"><br></td></tr>
+         <tr>
+         <td align="right">Type of License:<br></td>
+         <td><input type="radio" name="answer" value="BUSINESS" checked>Business
+         <input type="radio" name="answer" value="PERSONAL">Personal <br></td>
+         <tr><td align="right">
+         Reason:</td><td>
+         <select name="Reason" style="width: 233px">
+         <option value="Select a Reason">Select a Reason</option>
+         <option value="Software Support">Software Support</option>
+         <option value="Hardware Support">Hardware Support</option> 
+         <option value="Information Request">Information Request</option>
+         </select></td></tr><br>
+         <tr>
+         <td align="right">Additional Information:</td><td ><textarea name="briefDescription" rows="4" cols="30">
+         </textarea><br></td></tr>
+         <tr>
+         <td></td><td><input type="checkbox" name="myChoices">I have read the terms of service.<br></td></tr>
+         <tr><td></td>
+         <td align="right"><input type="submit" value="Send Request" style="width: 130px" ></td> </tr>
+         </form>
+      </table>
+   </body>
+</html>
